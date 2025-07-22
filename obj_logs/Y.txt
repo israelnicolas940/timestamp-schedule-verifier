@@ -1,0 +1,7 @@
+E_1, Read, 1
+E_1, Write, 2
+E_1, Read, 3
+E_2, Read, 1
+E_3, Write, 1
+E_3, Write, 4
+E_3, Read, 6
