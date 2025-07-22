@@ -20,13 +20,13 @@ Este programa lê uma lista de objetos de banco de dados, transações e escalon
 ## Estrutura do Projeto
 
 Timestamp-Scheduler/
-├── CMakeLists.txt # Arquivo de configuração do CMake
-├── main.cpp # Código-fonte principal
-├── in.txt # Arquivo de entrada (exemplo abaixo)
-├── out.txt # Arquivo de saída (gerado após execução)
-├── obj_logs/ # Diretório com logs por objeto (gerado automaticamente)
-├── build/ # Diretório de build do CMake
-└── README.md # Este arquivo
+- CMakeLists.txt # Arquivo de configuração do CMake
+- main.cpp # Código-fonte principal
+- in.txt # Arquivo de entrada (exemplo abaixo)
+- out.txt # Arquivo de saída (gerado após execução)
+- obj_logs/ # Diretório com logs por objeto (gerado automaticamente)
+- build/ # Diretório de build do CMake
+- README.md # Este arquivo
 
 ## Requisitos
 
@@ -34,7 +34,6 @@ Timestamp-Scheduler/
 - Compilador compatível com **C++17** (GCC 7+, Clang 5+, MSVC 2017+)
 
 ---
-
 
 ## Compilação
 
@@ -53,7 +52,7 @@ Run:
 ```
 
 ## Formato de entrada
-
+```
 # Objects; 
 A,B,C; 
 # Transactions;
@@ -63,7 +62,7 @@ t1,t2;
 
 E_1 - r1(A), w1(B), r2(C), c1, c2
 E_2 - w2(B), r1(A), c1, c2
-
+```
 Detalhes:
 
     Objetos: nomes separados por vírgulas
